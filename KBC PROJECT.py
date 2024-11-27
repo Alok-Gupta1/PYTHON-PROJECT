@@ -35,7 +35,7 @@ for i in range(0,len(option)):
             ans=input('ENTER OPTION')
             if ans.lower()==v.lower():
                  print('CORRECT ANSWER')
-                 print('ESSI SATH AAP JEET CHUKE HO RS.',money[m])
+                 print('ESSI KE SATH AAP JEET CHUKE HO RS.',money[m])
                  n+=1
                  m+=1
                  continue
