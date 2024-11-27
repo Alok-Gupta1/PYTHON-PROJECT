@@ -6,7 +6,7 @@ p=0
 for i in range(rounds):
     pc=random.choice(game)
     player=input(' ENTER EITHER SNAKE , WATER , GUN ')
-    print(pc)
+    print("PC choosed",pc)
     if pc == player:
         print('DRAW')
     elif pc == 'snake' and player == 'water':
